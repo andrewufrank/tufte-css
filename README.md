@@ -1,19 +1,35 @@
 Andrew Frank:
 
 This is my adaption of the tufte-css files to be used in my homepage
-produced with css. 
+produced with css, bibtex and the w3c styles. My changes have focused 
 
-there are two styles, a minimally adapted version of the tufte-css
+- (1) on the interaction of Tufte-Style with an automatic adaption 
+to different screen width, where I relied on the w3c.css, 
+which which I found to adapt to different screen sizes nicely. 
+
+- (2) on the integration with bibliographic references which I wanted 
+in the blog-style entries to be sidenotes in the margin. As I also wanted
+to produce printable text as pdf, I have the bibliography at end of a blog text 
+and not, as preferably, sidenotes. 
+
+There are two styles, a minimally adapted version of the tufte-css
 and my additions 
 
 - tufte-extra.cc to adapt the bibliographystyle 
 - tufte-additions.css to make it work with the standard w3c.css
 
+   
+There is unfortunately some interaction between
+
+    - the tufte style,
+    - the bibliography and
+    - the w3c stylesheet
+    
+which is checked in the ssg_w3_ext.css mostly. 
 
 
 
-
-Tufte CSS
+The original README: Tufte CSS
 =========
 Edward Tufte uses a distinctive style in his handouts: simple, with well-set
 typography, extensive sidenotes, and tight integration of graphics and
