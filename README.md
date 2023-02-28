@@ -1,3 +1,18 @@
+Andrew Frank:
+
+This is my adaption of the tufte-css files to be used in my homepage
+produced with css. 
+
+there are two styles, a minimally adapted version of the tufte-css
+and my additions 
+
+- tufte-extra.cc to adapt the bibliographystyle 
+- tufte-additions.css to make it work with the standard w3c.css
+
+
+
+
+
 Tufte CSS
 =========
 Edward Tufte uses a distinctive style in his handouts: simple, with well-set
