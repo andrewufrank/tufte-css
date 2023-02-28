@@ -3,10 +3,12 @@
 /* Import ET Book styles
    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
+   /* replaced '"et-book/' with '"/resources/templates/fonts/' */
+
 @font-face {
     font-family: "et-book";
-    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
-    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    src: url("/resources/templates/fonts//resources/templates/fonts-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("/resources/templates/fonts/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/resources/templates/fonts/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("/resources/templates/fonts/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("/resources/templates/fonts/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -14,8 +16,8 @@
 
 @font-face {
     font-family: "et-book";
-    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
-    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    src: url("/resources/templates/fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("/resources/templates/fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/resources/templates/fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("/resources/templates/fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/resources/templates/fonts/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -23,8 +25,8 @@
 
 @font-face {
     font-family: "et-book";
-    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    src: url("/resources/templates/fonts/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("/resources/templates/fonts/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/resources/templates/fonts/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("/resources/templates/fonts/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("/resources/templates/fonts/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -32,14 +34,15 @@
 
 @font-face {
     font-family: "et-book-roman-old-style";
-    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
-    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    src: url("/resources/templates/fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("/resources/templates/fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/resources/templates/fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("/resources/templates/fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("/resources/templates/fonts/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 /* Tufte CSS styles */
+/* this is the base for font sizes in rem */
 html {
     font-size: 15px;
 }
@@ -48,10 +51,10 @@ body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
+    /* padding-left: 12.5%; seems not necessary for screens af*/
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    background-color: #fffff8;
-    color: #111;
+    background-color: var(--base2, #fffff8);
+    color: var(--base03,#111);
     max-width: 1400px;
     counter-reset: sidenote-counter;
 }
@@ -66,8 +69,9 @@ body {
 
 h1 {
     font-weight: 400;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    /* reduced was 4rem and 1.5rem */
     font-size: 3.2rem;
     line-height: 1;
 }
@@ -95,7 +99,7 @@ hr {
     height: 1px;
     width: 55%;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--af-base, #ccc);
     margin: 1em 0;
     padding: 0;
 }
@@ -114,16 +118,18 @@ p.subtitle {
 }
 
 .danger {
-    color: red;
+    color: var(--red, red);
 }
 
 article {
-    padding: 5rem 0rem;
+    padding: 1rem 0rem; 
+    /*  reduced was 5rem */
 }
 
 section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    /* reduced was 1 rem */
 }
 
 p,
@@ -230,7 +236,8 @@ figure.fullwidth figcaption {
 /* Links: replicate underline that clears descenders */
 a:link,
 a:visited {
-    color: inherit;
+    color: var(--link-color,blue);
+    /* color: inherit; af */
 }
 
 .no-tufte-underline:link {
@@ -240,14 +247,15 @@ a:visited {
 
 a:link, .tufte-underline, .hover-tufte-underline:hover {
     text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
+    color: var(--link-color,blue); /* af added */
+    /* background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
     background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
     -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
     background-repeat: no-repeat, no-repeat, repeat-x;
     text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%;
+    background-position: 0% 93%, 100% 93%, 0% 93%; */
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -484,3 +492,4 @@ label.margin-toggle:not(.sidenote-number) {
         width: 100%;
     }
 }
+
